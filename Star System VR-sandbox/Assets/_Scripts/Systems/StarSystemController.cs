@@ -2,16 +2,11 @@ using System.IO;
 using System.Diagnostics;
 using UnityEngine;
 using System.Collections.Generic;
-using System.Net.Sockets;
-using System.Text;
 
 
 public class StarSystemController : MonoBehaviour
 {
     [SerializeField] private List<StringDictionary> games;
-    private Process watcherProcess;
-    private const string watcherFolder = "GameWatcher";
-    private bool isLaunchingSubgame = false;
 
     public void LaunchSubgame(string subgameName)
     {
