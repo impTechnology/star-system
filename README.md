@@ -4,8 +4,8 @@
 
 ## Kompilácia a build
 ### Potrebné
-- .NET 8.0 SDK (https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
-- Unity 2022.3.37f1 (https://unity.com/releases/editor/archive)
+- [.NET 8.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
+- [Unity 2022.3.37f1](https://unity.com/releases/editor/archive)
 ### Postup
 1. V priečinku GameWatcher spustiť príkaz: `dotnet build -c Release`
 2. Build Game Launcheru nájdeš v priečinku `GameWatcher/bin/Release/net8.0`
