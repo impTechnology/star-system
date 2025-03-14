@@ -224,7 +224,9 @@ class Program
             MainLoop();
 
             Console.WriteLine("Launcher is shutting down. Press any key to exit...");
-            Console.ReadKey();
+            if (File.Exists("shutdown_requested.txt"))
+                File.Delete("shutdown_requested.txt");
+            Environment.Exit(0);
         }
         catch (Exception e)
         {
