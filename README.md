@@ -30,5 +30,6 @@ GameLauncher:
 ---
 
 ## Dokumentácie
-dokumentáciu a popis metód a tried pre Unity projekt nájdeš v StarSystem/Assets/_Scripts/readme.md
-dokumentáciu pre Game Launcher nájdeš v GameWatcher/readme.md
+- dokumentáciu pre **popis metód a tried** pre Unity projekt nájdeš v [StarSystem/Assets/_Scripts/readme.md](https://github.com/impTechnology/star-system/blob/main/Star%20System%20VR-sandbox/Assets/_Scripts/readme.md)
+- dokumentáciu pre **všeobecnú scénu a celý** Unity projekt nájdeš v [StarSystem/readme.md](https://github.com/impTechnology/star-system/blob/main/Star%20System%20VR-sandbox/readme.md)
+- dokumentáciu pre **Game Launcher** nájdeš v [GameWatcher/readme.md](https://github.com/impTechnology/star-system/blob/main/GameWatcher/readme.md)
