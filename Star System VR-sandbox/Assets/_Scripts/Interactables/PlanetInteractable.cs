@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.Interaction.Toolkit;
 
+
+[RequireComponent(typeof(XRBaseInteractable))]
 public class PlanetInteractable : MonoBehaviour
 {
     [SerializeField] private string subgameName;
