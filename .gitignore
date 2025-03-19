@@ -76,3 +76,6 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 [Aa]ssets/[Ss]treamingAssets/aa.meta
 [Aa]ssets/[Ss]treamingAssets/aa/*
+
+# GameLauncher stuff
+GameWatcher/bin/Release/net8.0/win-x64/
